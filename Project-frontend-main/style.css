@@ -1,0 +1,189 @@
+@import
+url('https://fonts.googleapis.com/css?family=Langar');
+
+* {
+    box-sizing: border-box;
+}
+a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    /* border: 1px solid black; */
+    padding: 4px 10px;
+    /* background: cadetblue; */
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(194, 37, 37);
+    /* background: black; */
+    margin: 10px;
+    padding: 10px;
+  }
+  a:hover {
+    background: rgb(184, 179, 179);
+  }
+  body {
+    margin: 0;
+  }
+  p {
+    font-size: 20px;
+  }
+  
+  .navbar {
+    background: rgb(238, 235, 235);
+    display: flex;
+  }
+  .login {
+    position: relative;
+    top: 0;
+    right:0;
+  }
+  div {
+    font-family: cursive;
+    
+  }
+  .cursive-text {
+    font-family: cursive;
+  }
+  
+  .blue-color {
+    color: blue;
+  }
+body {
+    margin: 0;
+    font-family: 'Al', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 200%;
+    height: auto;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+/* typoghraphy */
+.title {
+    font-size: 4em;
+    color: rgb(255, 251, 0);
+    text-align: right;
+    margin: 0px;
+    position: relative;
+    top: auto;
+    right: auto;
+}
+
+
+/* header */
+header{
+    /* position: absolute;  */
+    margin-top: .5em;
+}
+
+nav ul {
+    margin: 10;
+    padding: .5px;
+    list-style: armenian;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 3em;
+}
+
+nav a {
+    font-weight: 900;
+    font: auto;
+    padding: 20px;
+    text-decoration: indianred;
+    text-transform: capitalize;
+    font-size: 2rem;
+    background-color: rgb(114, 179, 40);
+}
+nav a:hover {
+    color: rgb(209, 243, 13);
+}
+nav a:focus {
+    color: rgb(240, 29, 14);
+}
+
+
+
+/* header */
+.home-hero {
+    background-image: url(../img01.bg.PNG);
+    padding: 15em;
+    display: inline-block;
+    background-size: cover
+
+}
+
+.home-about {
+    background-color: rgba(34, 2, 2, 0.877);
+}
+
+.home-about h1 {
+    font-size: 40px;
+    color: #FFDF00;
+    font-family: 'Lucida Sans', 'Courier New', sans-serif;
+}
+
+.home-about P {
+    font-size:5vw;
+    font-family: cursive;
+    font-style: italic;
+    color:#DAA520;
+}
+
+.items h1 { 
+    font-size: 40px;
+    text-emphasis-color: rgb(223, 190, 6);
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #dac50f 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #fcec0a 0px 0px 75px, 2px 2px 2px rgba(206,186,31,0.45);
+}
+
+.items p {
+    font-size: 30px;
+    color: #FFDF00;
+    background-color: black;
+}
+
+.button {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #00ff6c;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+.button:hover {
+    background-color: rgb(72, 105, 57);
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gold;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+    margin: 10;
+    padding: .5px;
+    list-style: armenian;
+    text-align: center;
+}
