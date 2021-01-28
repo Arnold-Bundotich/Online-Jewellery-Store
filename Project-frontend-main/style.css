@@ -4,35 +4,35 @@ url('https://fonts.googleapis.com/css?family=Langar');
 * {
     box-sizing: border-box;
 }
-a {
+/* a {
 
     font-family: Arial, Helvetica, sans-serif;
     text-transform: none;
-    /* border: 1px solid black; */
+    
     padding: 4px 10px;
-    /* background: cadetblue; */
+    
     font-size: 16px;
     border-radius: 4px;
     text-decoration: none;
     color: rgb(194, 37, 37);
-    /* background: black; */
+    
     margin: 10px;
     padding: 10px;
   }
   a:hover {
     background: rgb(184, 179, 179);
-  }
-  body {
+  } */
+  /* body {
     margin: 0;
-  }
+  } */
   p {
     font-size: 20px;
   }
   
-  .navbar {
+  /* .navbar {
     background: rgb(238, 235, 235);
     display: flex;
-  }
+  } */
   .login {
     position: relative;
     top: 0;
@@ -52,12 +52,17 @@ a {
 body {
     margin: 0;
     font-family: 'Al', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+    /* text-align: center; */
 }
-
+/* 
 img {
     max-width: 200%;
     height: auto;
+} */
+
+.trends {
+    margin-top: 60px;
+    padding-top: 60px;
 }
 
 .container {
@@ -75,43 +80,40 @@ img {
     top: auto;
     right: auto;
 }
-
+ nav ul li a:hover {
+     color: pink;
+ }
 
 /* header */
-header{
-    /* position: absolute;  */
+/* header{
     margin-top: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+/* .nav {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 50px;
+    justify-content: space-evenly;
+    outline: 1px solid red;
+    margin: 20px;
 }
 
-nav ul {
-    margin: 10;
-    padding: .5px;
-    list-style: armenian;
-    text-align: center;
+.nav a {
+    text-decoration: none;
+    color: black;
 }
 
-nav li {
-    display: inline-block;
-    margin: 3em;
+.nav a:hover {
+    color: blue;
 }
 
-nav a {
-    font-weight: 900;
-    font: auto;
-    padding: 20px;
-    text-decoration: indianred;
-    text-transform: capitalize;
-    font-size: 2rem;
-    background-color: rgb(114, 179, 40);
-}
-nav a:hover {
-    color: rgb(209, 243, 13);
-}
-nav a:focus {
-    color: rgb(240, 29, 14);
-}
-
-
+.logo {
+    margin: 20px;
+} */
 
 /* header */
 .home-hero {
@@ -124,6 +126,7 @@ nav a:focus {
 
 .home-about {
     background-color: rgba(34, 2, 2, 0.877);
+    height: 250px;
 }
 
 .home-about h1 {
@@ -132,11 +135,17 @@ nav a:focus {
     font-family: 'Lucida Sans', 'Courier New', sans-serif;
 }
 
-.home-about P {
-    font-size:5vw;
+.home-about h4 {
+    /* font-size:5vw; */
     font-family: cursive;
     font-style: italic;
     color:#DAA520;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
 }
 
 .items h1 { 
